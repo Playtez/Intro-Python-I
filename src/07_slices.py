@@ -12,10 +12,10 @@ Use Python's slice syntax to achieve the following:
 a = [2, 4, 1, 7, 9, 6]
 
 # Output the second element: 4:
-print(a[1])
+print(a[1:2])
 
 # Output the second-to-last element: 9
-print(a[-2])
+print(a[-2:-1])
 
 # Output the last three elements in the array: [7, 9, 6]
 print(a[-3:])
@@ -25,11 +25,11 @@ print(a[2:4])
 
 # Output every element except the first one: [4, 1, 7, 9, 6]
 print(
-    "Output every element except the first one: [4, 1, 7, 9, 6] ---> ", a[1:6])
+    "Output every element except the first one: [4, 1, 7, 9, 6] ---> ", a[1:])
 
 # Output every element except the last one: [2, 4, 1, 7, 9]
 print(
-    "Output every element except the last one: [2, 4, 1, 7, 9] ---> ", a[0:5])
+    "Output every element except the last one: [2, 4, 1, 7, 9] ---> ", a[:5])
 
 # For string s...
 
